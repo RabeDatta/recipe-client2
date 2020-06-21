@@ -1,3 +1,4 @@
+/*
 nav {
   display: flex;
   justify-content: space-around;
@@ -12,4 +13,26 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+li {
+  float: left;
+}
+
+link li {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
 }

@@ -12,7 +12,7 @@ const fetchAllRecipes = (recipes) => {
   };
 };
 
-const API_KEY = process.env.REACT_APP_SPOONACULAR_API;
+//const API_KEY = process.env.REACT_APP_SPOONACULAR_API;
 const RECIPE_API_BASE = "https://api.spoonacular.com/recipes/search";
 
 //thunk creators
@@ -21,7 +21,7 @@ export const fetchAllRecipesThunk = (searchTerm) => (dispatch) => {
     .get(RECIPE_API_BASE, {
       params: {
         query: searchTerm,
-        apiKey: "8c1e6e74f9eb44f6b8f43b81ef41f597",
+        apiKey: "b2174079fceb4335a22508ae27c82eb6",
       },
     })
     .then((response) => response.data.results)
