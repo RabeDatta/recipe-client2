@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://www.pxwall.com/wp-content/uploads/2018/06/Wallpaper%20Greek,%20cooking,%20recipe,%20lettuce,%20tomatoes,%20paprika,%20olives,%20feta,%204k,%20Food%201343218940.jpg) no-repeat;
+   
+    background-size: 12px;
+    background-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ .home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+p{  
+  margin: 0;
+  font-size: 1.5rem;
+};
+
+
+
+
+/*https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cheese-curds.jpg*/
