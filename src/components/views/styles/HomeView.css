@@ -6,10 +6,14 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(https://www.pxwall.com/wp-content/uploads/2018/06/Wallpaper%20Greek,%20cooking,%20recipe,%20lettuce,%20tomatoes,%20paprika,%20olives,%20feta,%204k,%20Food%201343218940.jpg) no-repeat;
+    url(https://www.pxwall.com/wp-content/uploads/2018/06/Wallpaper%20Greek,%20cooking,%20recipe,%20lettuce,%20tomatoes,%20paprika,%20olives,%20feta,%204k,%20Food%201343218940.jpg) no-repeat center center fixed;
    
-    background-size: 12px;
-    background-size: auto;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    overflow-y: auto;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
