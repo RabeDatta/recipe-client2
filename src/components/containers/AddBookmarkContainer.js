@@ -8,7 +8,7 @@ const AddBookmarkContainer = (props) => {
     e.preventDefault();
     props.addBookmark(props.recipeId);
   };
-  return <button onClick={handleAdd}>add </button>;
+  return <button onClick={handleAdd}>Add </button>;
 };
 
 const mapDispatch = (dispatch) => {

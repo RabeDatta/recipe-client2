@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { UserProfileView } from "../views";
+import { AllBookmarksView } from "../views";
 
 class UserProfileContainer extends Component {
   constructor(props) {

@@ -11,8 +11,8 @@ class AuthFormContainer extends Component {
     this.state = {
       email: "",
       password: "",
-      redirectToHome: false,
-      redirectToProfile: false,
+      // redirectToHome: false,
+      // redirectToProfile: false,
     };
   }
 
@@ -24,13 +24,13 @@ class AuthFormContainer extends Component {
     event.preventDefault();
     const formName = event.target.name;
     this.props.loginOrSignup(this.state.email, this.state.password, formName);
-    this.setState({ redirectToProfile: true });
+    // this.setState({ redirectToProfile: true });
   };
 
   render() {
-    if (this.state.redirectToProfile && this.props.isLoggedIn) {
-      return <Redirect to="/profile" />;
-    }
+    // if (this.state.redirectToProfile && this.props.isLoggedIn) {
+    //   return <Redirect to="/profile" />;
+    // }
     return (
       <AuthFormView
         name={this.props.name}

@@ -1,6 +1,6 @@
 import React from "react";
 
-//handle logout 
+//handle logout
 const AllBookmarksView = (props) => {
   const { handleLogout } = props;
   return (
@@ -8,7 +8,7 @@ const AllBookmarksView = (props) => {
       <h1>
         <button onClick={handleLogout}>Logout</button>
       </h1>
-      {props.allBookmarks.map((bookmark) => (
+      {props.bookmarks.map((bookmark) => (
         <div key={bookmark.id}>{bookmark.recipeId}</div>
       ))}
     </div>

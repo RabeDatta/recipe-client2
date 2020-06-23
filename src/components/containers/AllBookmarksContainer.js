@@ -9,7 +9,6 @@ class AllBookmarksContainer extends Component {
   }
   render() {
     return (
-      // <h1>Hello AllBookmarksContainer</h1>;
       <AllBookmarksView allBookmarks={this.props.allBookmarks} />
     );
   }
