@@ -1,6 +1,8 @@
 import React from "react";
 const imageUrl = "https://spoonacular.com/recipeImages/";
 
+// search page results 
+
 const AllRecipesView = (props) => {
   return (
     <div className="all-recipes">

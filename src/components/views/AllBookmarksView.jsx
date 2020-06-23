@@ -1,5 +1,6 @@
 import React from "react";
 
+//handle logout 
 const AllBookmarksView = (props) => {
   const { handleLogout } = props;
   return (

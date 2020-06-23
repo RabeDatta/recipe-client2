@@ -1,4 +1,7 @@
 import React from "react";
+import "./styles/AuthFormView.css";
+
+// for login page and sign up page 
 
 const AuthFormView = (props) => {
   const {
@@ -12,14 +15,14 @@ const AuthFormView = (props) => {
   } = props;
 
   return (
-    <div class='login'>
+    <div className= "login">
       {isLoggedIn ? `The current logged in user is: ${userEmail}` : ""}
       <form onSubmit={handleSubmit} name={name}>
         <div>
           <label htmlFor="email">
             <small>Email</small>
           </label>
-          <input name="email" type="text" onChange={handleChange} />
+          <input name="email" type="email" onChange={handleChange} />
         </div>
         <div>
           <label htmlFor="password">

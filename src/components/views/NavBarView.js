@@ -6,7 +6,7 @@ const NavBarView = (props) => {
   return (
     <nav className="nav-wraper indigo">
     <div className="container">
-      <a href="#" className="brand-logo left">Site Title</a>
+      <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/recipe-book-4-603316.png" style={{width: "20px"}}/>
      
       <ul className="right hide-on-med-and-down">
         <li> <Link to="/home"> Home</Link> </li> 
