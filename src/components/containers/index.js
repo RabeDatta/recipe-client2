@@ -5,3 +5,4 @@ export { default as AllBookmarksContainer } from "./AllBookmarksContainer";
 export { default as AllReviewsContainer } from "./AllReviewsContainer";
 export { default as HomeContainer } from "./HomeContainer";
 export { default as LogoutButtonContainer } from "./LogoutButtonContainer";
+export { default as UserProfileContainer } from "./UserProfileContainer";
