@@ -30,6 +30,8 @@ const AuthFormView = (props) => {
           </label>
           <input name="password" type="password" onChange={handleChange} />
         </div>
+        <input type="password" name="password" id="password"/>
+        <input type="password" name="confirm" id="confirm-password"/>
         <div>
           <button type="submit">{displayName}</button>
         </div>
