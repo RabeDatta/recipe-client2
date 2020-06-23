@@ -6,3 +6,4 @@ export { default as AllBookmarksView } from "./AllBookmarksView";
 export { default as HomeView } from "./HomeView";
 export { default as NavBarView } from "./NavBarView";
 export { default as UserProfileView } from "./UserProfileView";
+export { default as RecipeView } from "./RecipeView";
