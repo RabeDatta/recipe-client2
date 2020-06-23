@@ -8,3 +8,4 @@ export { default as LogoutButtonContainer } from "./LogoutButtonContainer";
 export { default as UserProfileContainer } from "./UserProfileContainer";
 export { default as SingleRecipeContainer } from "./SingleRecipeContainer";
 export { default as RecipeContainer } from "./RecipeContainer";
+export { default as AddBookmarkContainer } from "./AddBookmarkContainer";

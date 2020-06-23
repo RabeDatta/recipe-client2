@@ -19,7 +19,7 @@ const RECIPE_API_BASE = "https://api.spoonacular.com/recipes/search";
 //THUNK CREATORS
 export const fetchRecipeThunk = (id) => (dispatch) => {
   return axios
-    .get("https://api.spoonacular.com/recipes/${id}/information", {
+    .get(`https://api.spoonacular.com/recipes/${id}/information`, {
       params: {
         apiKey: "8c1e6e74f9eb44f6b8f43b81ef41f597",
       },

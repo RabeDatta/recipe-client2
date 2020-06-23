@@ -29,9 +29,13 @@ export const fetchAllBookmarksThunk = () => (dispatch) => {
     .catch((err) => console.log(err));
 };
 
-export const addBookThunk = (recipeId) => (dispatch) => {
+export const addBookmarkThunk = (recipeId) => (dispatch) => {
+  const json = JSON.stringify({ recipeId: recipeId });
   return axios
-    .post("/api/bookmarks", { data: { recipeId, userId: 1 } })
+    .post("/api/bookmarks", json, {
+      headers: { "Content-Type": "application/json" },
+      withCredentials: true,
+    })
     .then((res) => res.data)
     .then((bookmark) => dispatch(addBookmark(bookmark)))
     .catch((err) => console.log(err));

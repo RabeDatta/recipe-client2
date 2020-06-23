@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// for user profile 
+// for user profile
 
 const UserProfileView = (props) => {
   return (
@@ -11,7 +11,7 @@ const UserProfileView = (props) => {
         <p>Recipes</p>
       </Link>
       <Link to="/reviews" className="nav-link">
-        <l1>Reviews</l1>
+        <h1>Reviews</h1>
       </Link>
     </div>
   );
